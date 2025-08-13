@@ -62,7 +62,7 @@ A modern, full-stack web application for creating balanced football teams based 
 
 5. **Open your browser**
    
-   Navigate to [http://localhost:3000](http://localhost:3000)
+   Live Preview [https://sports-team-divider.vercel.app/](https://sports-team-divider.vercel.app/)
 
 ## Usage
 
