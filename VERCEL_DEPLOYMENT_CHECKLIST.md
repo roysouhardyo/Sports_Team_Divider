@@ -58,7 +58,7 @@ In your Vercel project dashboard → Settings → Environment Variables:
 
 | Variable | Value | Environment |
 |----------|-------|-------------|
-| `MONGODB_URI` | `mongodb+srv://your_username:your_password@your_cluster.mongodb.net/team_divider?retryWrites=true&w=majority` | Production, Preview, Development |
+| `MONGODB_URI` | Your MongoDB Atlas connection string | Production, Preview, Development |
 | `ADMIN_USERNAME` | `your_admin_username` | Production, Preview, Development |
 | `ADMIN_PASSWORD` | `your_secure_password` | Production, Preview, Development |
 

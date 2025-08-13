@@ -17,8 +17,7 @@ if (fs.existsSync(envPath)) {
 // Create the .env.local content
 const envContent = `# MongoDB Atlas Connection String
 # Replace with your actual MongoDB Atlas connection string
-# Format: mongodb+srv://username:password@cluster.mongodb.net/database?retryWrites=true&w=majority
-MONGODB_URI=mongodb+srv://your_username:your_password@your_cluster.mongodb.net/team_divider?retryWrites=true&w=majority
+MONGODB_URI=your_mongodb_connection_string_here
 
 # Authentication Credentials (optional - defaults to admin/password123)
 # Change these to your preferred admin credentials

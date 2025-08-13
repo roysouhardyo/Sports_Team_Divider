@@ -66,7 +66,7 @@ In your Vercel project dashboard:
 
 | Variable Name | Value | Environment |
 |---------------|-------|-------------|
-| `MONGODB_URI` | Your actual MongoDB connection string | Production, Preview, Development |
+| `MONGODB_URI` | Your MongoDB Atlas connection string | Production, Preview, Development |
 | `ADMIN_USERNAME` | Your admin username | Production, Preview, Development |
 | `ADMIN_PASSWORD` | Your secure admin password | Production, Preview, Development |
 
@@ -85,7 +85,7 @@ node setup-env.js
 
 Then edit `.env.local` with your actual credentials:
 ```env
-MONGODB_URI=mongodb+srv://your_actual_username:your_actual_password@your_cluster.mongodb.net/team_divider?retryWrites=true&w=majority
+MONGODB_URI=your_mongodb_connection_string_here
 ADMIN_USERNAME=your_admin_username
 ADMIN_PASSWORD=your_secure_password
 ```

@@ -19,7 +19,7 @@ This will create a `.env.local` file with the correct format.
 1. Create a `.env.local` file in the root directory
 2. Add your MongoDB connection string and optional auth credentials:
    ```
-   MONGODB_URI=mongodb+srv://your_username:your_password@your_cluster.mongodb.net/team_divider?retryWrites=true&w=majority
+   MONGODB_URI=your_mongodb_connection_string_here
    ADMIN_USERNAME=admin
    ADMIN_PASSWORD=your_secure_password
    ```
